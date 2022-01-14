@@ -5,14 +5,10 @@ let year = date.getFullYear();
 
 document.querySelector("#currentYear").textContent = new Date().getFullYear();
 
+let options = {
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+};
 
-try {
-    let options = {
-        day: "numeric",
-        month: "numeric",
-        year: "numeric",
-    };
-
-    document.getElementById("lastUpdated").textContent = document.lastModified;
-} catch (e) {alert("Error with code or your browser does not support Locale");
-}
+document.getElementById("lastUpdated").textContent = document.lastModified;
