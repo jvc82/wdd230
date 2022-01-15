@@ -51,9 +51,8 @@ main {font-family: 'Roboto', sans-serif;
 }
 
 section {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
     border: 2px solid rgb(0, 59, 88);
-    border-radius: 7px;
     padding: 0;
     margin-bottom: 25px;
 }
