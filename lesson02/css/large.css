@@ -1,0 +1,28 @@
+@media only screen and (min-width: 55em){
+    h1 {
+        font-size: 350%;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+
+    .link {
+        font-size: large;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "section1 section2 section3";
+    }
+
+    footer {
+        font-size: x-large;
+    }
+    
+    .lastUpdated {
+        font-size: large;
+    }
+}
