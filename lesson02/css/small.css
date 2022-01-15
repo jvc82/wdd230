@@ -47,7 +47,7 @@ main {font-family: 'Roboto', sans-serif;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .75fr .65fr;
     grid-template-areas:
         "section1"
         "section2"
