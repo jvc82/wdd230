@@ -1,11 +1,11 @@
-body {font-family: Arial, Helvetica, sans-serif;
+body {font-family: 'Roboto', sans-serif;
     max-width: 600px;
     margin: auto;
     margin-top: 40px;
     background: rgb(230, 223, 223);
 }
 
-main {font-family: Arial, Helvetica, sans-serif;
+main {font-family: 'Roboto', sans-serif;
     max-width: 560px;
     padding-left: 20px;
     text-align: center;
@@ -23,8 +23,7 @@ header {
 }
 
 header img {
-    margin-left: 50px;
-    margin-right: 35px;
+    margin-left: 35px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 75%;
@@ -32,8 +31,9 @@ header img {
 }
 
 h1 {
-    font-size: 275%;
+    font-size: 350%;
     margin: auto;
+    margin-left: 60px;
     color: rgb(230, 223, 223);
     text-shadow: 0px 0px 30px rgb(0, 0, 0);
 }
@@ -59,11 +59,13 @@ h2 {
     border-top: 0px;
     border-bottom: 1px gray;
     border-style: solid;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .menu {
+    text-align: center;
     text-align: left;
+    display: inline-block;
 }
 
 .someText {
@@ -74,7 +76,7 @@ h2 {
     border-top: 1px gray;
     border-bottom: 0px;
     border-style: solid;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 footer {
