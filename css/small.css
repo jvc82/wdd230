@@ -1,12 +1,13 @@
 body {font-family: 'Roboto', sans-serif;
-    max-width: 600px;
+    max-width: 520px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background: rgb(230, 223, 223);
 }
 
 main {font-family: 'Roboto', sans-serif;
-    max-width: 560px;
+    max-width: 480px;
     padding-left: 20px;
     text-align: center;
 }
