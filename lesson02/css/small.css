@@ -6,11 +6,11 @@ body {font-family: 'Roboto', sans-serif;
 header {
     text-align: center;
     padding-top: 10px;
-    background: rgb(0, 59, 88);
+    background: rgb(84, 96, 102);
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 175%;
     margin: auto;
     color: rgb(230, 223, 223);
 }
@@ -27,7 +27,7 @@ h2 {
     font-size: small;
     margin: auto;
     margin: 10px 0px 15px 0px;
-    background: rgb(84, 96, 102);
+    background: rgb(0, 59, 88);
     border-radius: 5px;
     padding: 3px 10px 3px 10px;
     display: inline-block;
@@ -35,6 +35,10 @@ h2 {
 
 .link a:link {
     text-decoration: none;
+    color: rgb(230, 223, 223);
+}
+
+.link a:visited {
     color: rgb(230, 223, 223);
 }
 
@@ -97,7 +101,7 @@ img {
 h3 {
     font-size: x-large;
     color: rgb(230, 223, 223);
-    background: rgb(0, 59, 88);
+    background: rgb(84, 96, 102);
     margin: 0;
     padding: 5px 4px;
 }
@@ -112,7 +116,7 @@ footer {
     text-align: center;
     font-size: medium;
     color: rgb(230, 223, 223);
-    background: rgb(0, 59, 88);
+    background: rgb(84, 96, 102);
     padding: 5px 0px 5px 0px;
 }
 
