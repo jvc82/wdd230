@@ -90,8 +90,12 @@ section {
 }
 
 .name {
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
+}
+
+a {
+    font-size: larger;
 }
 
 img {
