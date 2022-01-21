@@ -7,6 +7,7 @@ header {
     text-align: center;
     padding-top: 10px;
     background: rgb(84, 96, 102);
+    border-radius: 7px;
 }
 
 h1 {
@@ -125,11 +126,12 @@ footer {
     background: rgb(84, 96, 102);
     padding: 5px 0px 5px 0px;
     margin-top: -25px;
+    border-radius: 7px;
 }
 
 .lastUpdated {
     margin-top: -12px;
     text-align: center;
     font-size: medium;
-    color: rgb(211, 211, 128);
+    color: rgb(230, 223, 223);
 }
