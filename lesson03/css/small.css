@@ -1,0 +1,137 @@
+body {font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background: rgb(230, 223, 223);
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    background: rgb(84, 96, 102);
+    border-radius: 7px;
+}
+
+h1 {
+    font-size: 175%;
+    margin: auto;
+    color: rgb(230, 223, 223);
+}
+
+h2 {
+    font-size: 115%;
+    margin: auto;
+    margin-top: 5px;
+    color: rgb(230, 223, 223);
+}
+
+.link {
+    text-align: center;
+    font-size: medium;
+    margin: auto;
+    margin: 10px 0px 15px 0px;
+    background: rgb(0, 59, 88);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    display: inline-block;
+}
+
+.link a:link {
+    text-decoration: none;
+    color: rgb(230, 223, 223);
+}
+
+.link a:visited {
+    color: rgb(230, 223, 223);
+}
+
+main {font-family: 'Roboto', sans-serif;
+    margin: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .75fr .65fr;
+    grid-template-areas:
+        "section1"
+        "section2"
+        "section3";
+}
+
+section {
+    border-radius: 7px 7px 0px 0px;
+    border: 3px solid rgb(0, 59, 88);
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.section1 {
+    width: auto;
+    grid-area: section1;
+}
+
+.section1 a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section2 a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.section3 a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+.name {
+    font-size: x-large;
+    font-style: italic;
+    margin-top: 12px;
+    margin-bottom: -10px;
+}
+
+a {
+    font-size: larger;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-size: xx-large;
+    color: rgb(230, 223, 223);
+    background: rgb(0, 59, 88);
+    margin: 0;
+    padding: 5px 4px;
+}
+
+.description {
+    text-align: left;
+    padding: .75em;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    color: rgb(230, 223, 223);
+    background: rgb(84, 96, 102);
+    padding: 5px 0px 5px 0px;
+    margin-top: -25px;
+    border-radius: 7px;
+}
+
+.lastUpdated {
+    margin-top: -12px;
+    text-align: center;
+    font-size: medium;
+    color: rgb(230, 223, 223);
+}
