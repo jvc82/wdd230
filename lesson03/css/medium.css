@@ -11,20 +11,6 @@
         padding: 5px 15px 5px 15px;
     }
 
-    main {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: .5fr .5fr;
-        grid-template-areas:
-            "section1 section2"
-            "section3 section3";
-        grid-gap: 25px;
-    }
-
-    section {
-        padding: 0;
-        margin-bottom: 3px;
-    }
-
     footer {
         margin-top: 0px;
     }
