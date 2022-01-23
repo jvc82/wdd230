@@ -1,4 +1,9 @@
 @media only screen and (min-width: 32.5em){
+    header {
+        flex-flow: row;
+        display: block;
+    }
+
     h1 {
         font-size: 250%;
     }

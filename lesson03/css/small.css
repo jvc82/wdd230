@@ -9,6 +9,9 @@ header {
     padding-top: 10px;
     background: rgb(84, 96, 102);
     border-radius: 7px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 }
 
 h1 {
@@ -16,12 +19,14 @@ h1 {
     font-size: 175%;
     margin: auto;
     color: rgb(230, 223, 223);
+    display: block;
 }
 
 h2 {
     font-size: 115%;
     margin: auto;
     color: #063970;
+    display: block;
 }
 
 h3 {
@@ -36,7 +41,7 @@ h3 {
     text-align: center;
     font-size: medium;
     margin: auto;
-    margin: 10px 0px 15px 0px;
+    margin: 10px 0px 10px 0px;
     background: rgb(0, 59, 88);
     border-radius: 5px;
     padding: 3px 10px 3px 10px;
