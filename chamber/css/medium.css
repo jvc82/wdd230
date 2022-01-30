@@ -1,0 +1,50 @@
+@media only screen and (min-width: 32.5em){
+    header {
+        margin-bottom: 10px;
+        grid-template-columns: .5fr 1fr ;
+        grid-template-rows: 1fr;
+    }
+    
+    header img {
+        margin-left: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 75%;
+    }
+    
+    h1 {
+        font-size: 350%;
+        margin: auto;
+        margin-left: 40px;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "hero hero"
+        "news news"
+        "spotlights spotlights"
+        "join join"
+        "event weather";
+    }
+
+    .spotlight1 {
+        flex-grow: 1;
+    }
+
+    .spotlight2 {
+        flex-grow: 1;
+    }
+
+    .spotlights {
+        grid-area: spotlights;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .join {
+        grid-area: join;
+        display: inline;
+        text-align: center;
+    }
+}
