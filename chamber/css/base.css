@@ -6,25 +6,70 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 7px;
+    grid-gap: 3px;
 }
 
 header img {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 200px;
 }
 
 h1 {
     font-size: 175%;
 }
 
+.navigation {
+    display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.navigation a {
+	display: block;
+	padding: 7px;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #4A2122;
+}
+
+.nav2 {
+    display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.linkedin img{
+    width: 45%;
+    display: block;
+}
+
+.linkedin img:hover {
+    width: 55%;
+    background-color: none;
+}
+
+.facebook img{
+    width: 30%;
+    display: block;
+}
+
+.facebook img:hover {
+    width: 40%;
+    background-color: none;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 7px;
+    grid-gap: 0px;
     grid-template-areas:
         "hero"
         "event"
@@ -35,9 +80,10 @@ main {
 }
 
 main section {
-    margin: 10px;
+    margin: 3px;
     padding: 10px;
-    background-color: gray;
+    background-color: #063970;
+    color: #FFFFFF;
 }
 
 .links {
@@ -51,54 +97,82 @@ li {
 }
 
 .hero {
+    box-shadow: 5px 5px 5px black;
     grid-area: hero;
+    background-image: url("../images/nature_park.jpeg");
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    color: #FFFFFF;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .event {
+    box-shadow: 5px 5px 5px black;
     grid-area: event;
     text-align: center;
 }
 
 .weather {
+    box-shadow: 5px 5px 5px black;
     grid-area: weather;
     text-align: center;
 }
 
 .news {
+    box-shadow: 5px 5px 5px black;
     grid-area: news;
     text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.lorem {
+    text-align: left;
+    font-size: initial;
+    color: #FFFFFF;;
+}
+
+.spotlights {
+    box-shadow: 5px 5px 5px black;
 }
 
 .spotlight1 {
+    box-shadow: 5px 5px 5px black;
     grid-area: spotlight1;
     text-align: center;
-    background-color: lightgray;
+    background-color: #4A2122;
 }
 
 .spotlight2 {
+    box-shadow: 5px 5px 5px black;
     grid-area: spotlight2;
     text-align: center;
-    background-color: lightgray;
+    background-color: #4A2122;
 }
 
 .spotlight3 {
+    box-shadow: 5px 5px 5px black;
     display: none;
 }
 
 .join {
+    box-shadow: 5px 5px 5px black;
     display: none;
 }
 
 footer {
+    align-content: center;
     text-align: center;
 }
 
 footer img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    margin-top: 10px;
+    float: center;
+    align-items: center;
+    width: 160px;
 }
 
 footer a {

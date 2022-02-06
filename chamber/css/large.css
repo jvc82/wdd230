@@ -16,11 +16,6 @@
         display: inline;
         text-align: center;
         flex-grow: 1;
-        background-color: lightgray;
-    }
-
-    footer img {
-        float: left;
-        width: 25%;
+        background-color: #4A2122;
     }
 }
