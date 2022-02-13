@@ -20,49 +20,55 @@ h1 {
     font-size: 175%;
 }
 
+nav {
+	margin: auto;
+}
+
 .navigation {
-    display: flex;
 	list-style: none;
 	padding: 0;
 }
-
-.navigation a {
+.navigation li:first-child {
 	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+    display: block;
 	padding: 7px;
 	text-align: left;
 	text-decoration: none;
 	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 .navigation a:hover {
 	color: white;
-	background-color: #4A2122;
+	background-color: #8A0609;
 }
 
-.nav2 {
-    display: flex;
-	list-style: none;
-	padding: 0;
+.responsive li {
+	display: block;
 }
 
 .linkedin img{
-    width: 45%;
-    display: block;
-}
-
-.linkedin img:hover {
-    width: 55%;
-    background-color: none;
+    width: 30px;
 }
 
 .facebook img{
-    width: 30%;
-    display: block;
+    width: 30px;
 }
 
-.facebook img:hover {
-    width: 40%;
-    background-color: none;
+.date {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8A0609;
+    grid-column: 1/3;
+    padding: 5px;
 }
 
 main {
@@ -94,6 +100,12 @@ main section {
 
 li {
     padding-right: 10px;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #8A0609;
+    border-radius: 10px;
 }
 
 .hero {

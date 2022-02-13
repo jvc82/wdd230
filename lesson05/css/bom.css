@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.link {
+    text-align: center;
+    font-size: medium;
+    margin: auto;
+    margin: 10px 0px 15px 0px;
+    background: rgb(0, 59, 88);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+    display: inline-block;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(230, 223, 223);
+}
+
+main {
+	margin: auto;
+	padding: 5px;
+	border: 10px black;
+	background-color: gray;
+}
+
+h1 {
+	font-size: large;
+}
+
+button {
+	padding: 5px;
+}
+
+.list {
+	margin: auto;
+	padding: 5px;
+	border: 10px black;
+    list-style: none;
+}
